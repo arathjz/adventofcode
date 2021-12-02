@@ -1,6 +1,6 @@
 import input from './input'
 
-const getSonarBeepDepthMeasurementCount = (input: number[]): number => {
+export const getSonarBeepDepthMeasurementCount = (input: number[]): number => {
   let higherValue;
   let count = 0;
 
