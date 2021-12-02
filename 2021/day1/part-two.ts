@@ -1,6 +1,11 @@
 import input from './input'
 import { getSonarBeepDepthMeasurementCount } from "./part-one";
 
+/**
+  Assuming js has dynamic arrays by default. This solution is O(n), but worst case O(n ^ 2) if dealing with static arrays.
+  This solution could be improved by not storing values in the values array, and instead taking the same approach for solution part-one.
+ */
+
 const getSlidingWindowsMeasurementCount = (input: number[]) => {
   const values = [];
 
